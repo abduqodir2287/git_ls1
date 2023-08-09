@@ -61,8 +61,10 @@ def onlayn_magazin():
 
 
 
-if __name__ == "__main__":
-    onlayn_magazin()
+# if __name__ == "__main__":
+#     onlayn_magazin()
 
+print(init("Qalesan,yaxshimisan\n"
+           "Uydigila tinchmi"))
 
 
