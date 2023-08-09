@@ -67,10 +67,5 @@ def onlayn_magazin():
 print(init("Qalesan,yaxshimisan\n"
            "Uydigila tinchmi"))
 
-trash_2 = "WTF nmala yozurasane\n" \
-          "boladigan ishi qsenchi\n" \
-          "davay commit qil endi " \
-          "shuncha narsani"
-
 
 

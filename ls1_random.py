@@ -95,11 +95,6 @@ def run():
 if __name__=="__main__":
     run()
 
-trash = "Nma gap.Yaxshimisan\n" \
-        "yaxshi yuripsami\n" \
-        "Nmala qvossan"
-
-
 
 
 
