@@ -1,3 +1,5 @@
+from random import *
+
 from func import magazin, init
 
 def onlayn_magazin():
@@ -64,8 +66,27 @@ def onlayn_magazin():
 # if __name__ == "__main__":
 #     onlayn_magazin()
 
-print(init("Qalesan,yaxshimisan\n"
-           "Uydigila tinchmi"))
+# print(init("Qalesan,yaxshimisan\n"
+#            "Uydigila tinchmi"))
+
+# def shuffle_3(data:list):
+#     l = []
+#     while len(l) != len(data):
+#         a = randint(0,len(data) -1)
+#         if data[a] not in l:
+#             l.append(data[a])
+#         else:
+#             continue
+#     return l
+#
+# nouts = [
+#     "Asus", "Lenovo",
+#     "HP", "Acer",
+#     "Victus", "Macbook"
+# ]
+#
+# print(shuffle_3(nouts))
+
 
 
 
