@@ -98,10 +98,6 @@
 
 from random import *
 
-# cars = [
-    # "Malibu", "Cobalt", "Bugatti",
-    # "Spark", "Nexia", "Gentra"
-# ]
 
 # print(uniform(1,10))
 # print(choice(cars))
@@ -137,7 +133,29 @@ from random import *
 
 # print(sample_2(cars,3))
 
-print("Umarali")
+# print("Umarali")
+def mashina_oyin():
+    cars = [
+        "Malibu", "Cobalt", "Bugatti",
+        "Spark", "Nexia", "Gentra",
+        "Audi", "Jeep", "Ferrari",
+        "Tesla"
+    ]
+    a = randint(0,len(cars) - 1)
+    b = cars[a]
+    print(f"Kompyuter tanlagan mashinaning nomi:{len(b)}ta xarfdan iborat")
+    ur = 0
+    while True:
+        command = input(">>>")
+        if command != b:
+            print("Notogri")
+            ur += 1
+        elif command == b:
+            print(f"Javobingiz togri\n"
+                  f"urunishlar:{ur}")
+            break
+
+print(mashina_oyin())
 
 
 
