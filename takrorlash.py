@@ -4,7 +4,7 @@
 #     shifr = ""
 #     for i in name:
 #         shifr += chr(ord(i) + key)
-# 
+#
 #     return shifr
 #
 # def decopher(name:str,key:int):
