@@ -144,7 +144,7 @@ def mashina_oyin():
     a = randint(0,len(cars) - 1)
     b = cars[a]
     print(f"Kompyuter tanlagan mashinaning nomi:{len(b)}ta xarfdan iborat")
-    ur = 0
+    ur = 1
     while True:
         command = input(">>>")
         if command != b:
