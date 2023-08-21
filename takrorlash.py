@@ -42,6 +42,13 @@
 #       now.strftime("%H:%M\n"
 #                    "%d.%m.%Y"))
 
+from datetime import datetime
+
+print(datetime.now().strftime("   %H:%M\n"
+                                                                            "%d.%m.%Y"))
+ls = ["Abduqodir","Umar","Madina"]
+
+
 
 
 
