@@ -42,11 +42,43 @@
 #       now.strftime("%H:%M\n"
 #                    "%d.%m.%Y"))
 
-from datetime import datetime
+# from datetime import datetime
+from random import randint
 
-print(datetime.now().strftime("   %H:%M\n"
-                                                                            "%d.%m.%Y"))
-ls = ["Abduqodir","Umar","Madina"]
+# print(datetime.now().strftime("   %H:%M\n"
+#                                                                             "%d.%m.%Y"))
+# ls = [
+# "Abduqodir",
+# "Umar",
+# "Madina"
+# ]
+
+
+# def sample_2(data,num:int):
+#     test = []
+#     if num > len(data):
+#         print()
+#     while len(test) != num:
+#         a = randint(0, len(data) - 1)
+#         if data[a] not in test:
+#             test.append(data[a])
+#         else:
+#             continue
+#
+#     return test
+#
+# print(sample_2(ls,3))
+
+
+
+
+
+# year = datetime.now().hour
+
+
+# print(year)
+
+
 
 
 
