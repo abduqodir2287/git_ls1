@@ -1,6 +1,5 @@
-from random import *
+from functions.func import magazin
 
-from func import magazin, init
 
 def onlayn_magazin():
     print("Assalomu aleykum onlayn dokonimizga xush kelibsiz |\n"
