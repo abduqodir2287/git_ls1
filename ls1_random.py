@@ -96,7 +96,7 @@
 #     run()
 
 
-from random import *
+# from random import *
 
 
 # print(uniform(1,10))
@@ -134,28 +134,47 @@ from random import *
 # print(sample_2(cars,3))
 
 # print("Umarali")
-def mashina_oyin():
-    cars = [
-        "Malibu", "Cobalt", "Bugatti",
-        "Spark", "Nexia", "Gentra",
-        "Audi", "Jeep", "Ferrari",
-        "Tesla"
-    ]
-    a = randint(0,len(cars) - 1)
-    b = cars[a]
-    print(f"Kompyuter tanlagan mashinaning nomi:{len(b)}ta xarfdan iborat")
-    ur = 1
-    while True:
-        command = input(">>>")
-        if command != b:
-            print("Notogri")
-            ur += 1
-        elif command == b:
-            print(f"Javobingiz togri\n"
-                  f"urunishlar:{ur}")
-            break
+# def mashina_oyin():
+#     cars = [
+#         "Malibu", "Cobalt", "Bugatti",
+#         "Spark", "Nexia", "Gentra",
+#         "Audi", "Jeep", "Ferrari",
+#         "Tesla"
+#     ]
+#     a = randint(0,len(cars) - 1)
+#     b = cars[a]
+#     print(f"Kompyuter tanlagan mashinaning nomi:{len(b)}ta xarfdan iborat")
+#     ur = 1
+#     while True:
+#         command = input(">>>")
+#         if command != b:
+#             print("Notogri")
+#             ur += 1
+#         elif command == b:
+#             print(f"Javobingiz togri\n"
+#                   f"urunishlar:{ur}")
+#             break
+#
+# print(mashina_oyin())
 
-print(mashina_oyin())
+# test = ["How to check text for plagiarism?"
+# "Checking scientific articles for plagiarism is carried out using "
+# "special programs that automatically find matches "
+# "between individual fragments or the whole text with previously "
+# "published sources. Among the announcements of "
+# "authentication services are text.ru, content-watch.ru, etxt.biz, advego.com"]
+
+
+# from random import sample
+
+# def password():
+#     num = "123456789qwertyuiop[]asdfghjkl;zxcvbnm,./!@#$%^&*()-_=+"
+#     command = int(input(">>>"))
+#     return "".join(sample(num,command))
+
+# print(password())
+
+
 
 
 
