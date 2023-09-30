@@ -43,7 +43,8 @@
 #                    "%d.%m.%Y"))
 
 # from datetime import datetime
-from random import randint
+
+
 
 # print(datetime.now().strftime("   %H:%M\n"
 #                                                                             "%d.%m.%Y"))
@@ -78,6 +79,15 @@ from random import randint
 
 # print(year)
 
+# from random import randint, sample
+
+# def password():
+#     comm = int(input(">>>"))
+#     num = "123456789qwertyuiop[]asdfghjkl;zxcvbnm,./!@#$%^&*()-_=+"
+#     return "".join(sample(num,comm))
+#
+#
+# print(password())
 
 
 
